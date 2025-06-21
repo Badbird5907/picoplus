@@ -5,4 +5,7 @@ This is my take on the Raspberry Pi Pico 2. It features:
 - More GPIO Pins
 - A WS2812 LED
 - A reset button (!!!)
+- I2C EEPROM
+- Large SPI flash
+- PSRAM
 
