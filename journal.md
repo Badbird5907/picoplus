@@ -11,3 +11,7 @@ I'll probably call it either the Pico++ or the Pico Max.
 
 I've also made the footprint for the pin headers, including the castellated pins.
 ![img](https://hc-cdn.hel1.your-objectstorage.com/s/v3/527646f598878c7d005d01c993580efd04e6253f_kicad_vvetgcxh3u.png)
+
+# 6/22
+Time spent: 4h
+Finished the schematic design, and looked at the pico 2 source schematic to see if I made any errors. I've also sourced most of the parts on LCSC. The preliminary cost is about $120 USD (ENIG + Standard PCBA)
