@@ -4477,6 +4477,24 @@
 					)
 				)
 				(pin input line
+					(at 7.62 -54.61 90)
+					(length 2.54)
+					(name "SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 10.16 -54.61 90)
 					(length 2.54)
 					(name "GND"
@@ -4487,6 +4505,24 @@
 						)
 					)
 					(number "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -54.61 90)
+					(length 2.54)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SWDIO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7050,6 +7086,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 184.15) (xy 340.36 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "668f1605-2080-43ca-b165-023d7a087813")
+	)
+	(wire
+		(pts
 			(xy 173.99 60.96) (xy 185.42 60.96)
 		)
 		(stroke
@@ -7197,6 +7243,16 @@
 			(type default)
 		)
 		(uuid "72b0b9b9-80c8-48c0-9b10-66cda360d44a")
+	)
+	(wire
+		(pts
+			(xy 337.82 186.69) (xy 337.82 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72bc744e-28d3-480f-a073-9aa8485ce640")
 	)
 	(wire
 		(pts
@@ -8450,6 +8506,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 184.15) (xy 335.28 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd8083ca-40ca-4c43-a3c8-32298e3a3deb")
+	)
+	(wire
+		(pts
 			(xy 364.49 135.89) (xy 351.79 135.89)
 		)
 		(stroke
@@ -8777,6 +8843,16 @@
 			(justify left bottom)
 		)
 		(uuid "53bf8ea2-ab38-40c2-9a09-7cf9009ab99e")
+	)
+	(label "SWCLK"
+		(at 335.28 184.15 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55d2cebd-e6e4-489b-be4c-936e01043b5e")
 	)
 	(label "GP1"
 		(at 257.81 100.33 180)
@@ -9287,6 +9363,16 @@
 			(justify left bottom)
 		)
 		(uuid "b343bec1-5795-4bd0-8da9-128eaf875dc3")
+	)
+	(label "SWD"
+		(at 340.36 184.15 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5841a40-894a-4f6e-88c7-78b4e28fffda")
 	)
 	(label "GP25"
 		(at 257.81 161.29 180)
@@ -10212,7 +10298,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 337.82 175.26 0)
+		(at 337.82 186.69 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10221,7 +10307,7 @@
 		(dnp no)
 		(uuid "03bda536-8165-4cd9-81ab-4c7d527b9100")
 		(property "Reference" "#PWR037"
-			(at 337.82 181.61 0)
+			(at 337.82 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10230,7 +10316,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 337.693 179.6542 0)
+			(at 337.693 191.0842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10238,7 +10324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 337.82 175.26 0)
+			(at 337.82 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10247,7 +10333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 337.82 175.26 0)
+			(at 337.82 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10256,7 +10342,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 337.82 175.26 0)
+			(at 337.82 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10302,7 +10388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 125.73 31.75 0)
 			(effects
 				(font
@@ -11459,6 +11545,12 @@
 		(pin "23"
 			(uuid "511f75b8-7592-490f-8296-69a8a5c0306e")
 		)
+		(pin "SWDIO"
+			(uuid "af100b31-c0ec-4da2-8dc8-7669e4cda720")
+		)
+		(pin "SWCLK"
+			(uuid "77dae3c1-ebc4-45d4-b940-2fb4c047c6a9")
+		)
 		(instances
 			(project ""
 				(path "/178505cd-8ab7-4104-a7aa-1c5f6363b7ad"
@@ -11912,7 +12004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 30.48 50.8 0)
 			(effects
 				(font
@@ -13333,7 +13425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 72.39 31.75 0)
 			(effects
 				(font
@@ -14114,7 +14206,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 17.78 50.8 0)
 			(effects
 				(font
@@ -14438,7 +14530,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RP2350_60QFN_minimal:Crystal_SMD_HC49-US"
+		(property "Footprint" "RP2350_60QFN_minimal:XTAL_ABM8-272-T3"
 			(at 71.12 210.82 0)
 			(effects
 				(font
@@ -14709,7 +14801,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 353.06 81.28 0)
 			(effects
 				(font
@@ -15119,7 +15211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 29.21 63.5 0)
 			(effects
 				(font

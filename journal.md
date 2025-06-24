@@ -15,3 +15,9 @@ I've also made the footprint for the pin headers, including the castellated pins
 # 6/22
 Time spent: 4h
 Finished the schematic design, and looked at the pico 2 source schematic to see if I made any errors. I've also sourced most of the parts on LCSC. The preliminary cost is about $120 USD (ENIG + Standard PCBA)
+
+# 6/23
+Time spent: 1h
+Added SWD debug pads to the design. I've also started working on the PCB layout and routing.
+![img](https://hc-cdn.hel1.your-objectstorage.com/s/v3/57cf6244f8e609582fa10e30bc9018dc36da321c_kicad_hx3xjgqanx.png)
+![img](https://hc-cdn.hel1.your-objectstorage.com/s/v3/00b9f7523d85120827689f38e826afcdeeb987b4_kicad_t2y2yx98e9.png)
