@@ -225,4 +225,15 @@
 		(uuid "3323c168-8b84-40c2-9777-2aaa820e8d18")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Components/AP Memory APS6404L-3SQR-ZR.step"
+		(offset
+			(xyz -1.5 -1 0)
+		)
+		(scale
+			(xyz 0.1 0.1 0.1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

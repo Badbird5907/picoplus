@@ -26,3 +26,8 @@ Added SWD debug pads to the design. I've also started working on the PCB layout 
 Time spent: 7h
 Sat at my desk and made some tweaks to the schematic- the I2C EEPROM chip was removed because there just wasn't enough space on the board, and it costs quite a bit. I then decided to delete all traces and vias and start again. I've fully routed the board in a couple hours.
 ![img](https://hc-cdn.hel1.your-objectstorage.com/s/v3/f21e9aa79d16d40aaa7a059a5c4ab1665984f3c9_kicad_pemno1jvuh.png)
+
+# 6/25
+Time spent: 6h
+Did this all in a couple hours at a coffee shop. I redid the power layout and finished the PCB. On to sourcing parts now!
+![img](https://hc-cdn.hel1.your-objectstorage.com/s/v3/4195242a2c4d129d6ec4d91fcfe52e4d6db890c9_kicad_tyf9tc7nlb.png)

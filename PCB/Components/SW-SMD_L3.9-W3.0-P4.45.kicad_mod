@@ -238,7 +238,7 @@
 		(uuid "654b7136-0b7c-4b00-b589-7a54ed161204")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/EASYEDA_MODELS/SW-SMD_L3.9-W2.9-H2.0-LS4.8.step"
+	(model "${KIPRJMOD}/Components/3x4x2mm - 2 Pad.stp"
 		(offset
 			(xyz 0 0 0)
 		)
