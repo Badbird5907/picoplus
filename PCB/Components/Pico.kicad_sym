@@ -424,7 +424,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 -54.61 90)
+				(at 8.89 -54.61 90)
 				(length 2.54)
 				(name "SWCLK"
 					(effects
@@ -442,25 +442,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -54.61 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 -54.61 90)
+				(at 11.43 -54.61 90)
 				(length 2.54)
 				(name "SWDIO"
 					(effects
@@ -470,6 +452,24 @@
 					)
 				)
 				(number "SWDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.97 -54.61 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
