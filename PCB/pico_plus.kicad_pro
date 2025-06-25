@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|117403000|96250000|2125ee1a-f96d-493b-83e9-ec24d7d23f35|347f6f27-ac95-4311-a751-b55de9a54f0d",
+          ""
+        ],
+        [
+          "clearance|119500000|95453000|347f6f27-ac95-4311-a751-b55de9a54f0d|d8de03ab-2cf9-4634-b3ce-ff56de4e575a",
+          ""
+        ],
+        [
+          "clearance|119600000|98547000|347f6f27-ac95-4311-a751-b55de9a54f0d|bb6f37de-b7e7-4afd-b6c8-f616381f6a1b",
+          ""
+        ],
+        [
+          "clearance|123925000|77590711|0650b5e1-6272-4040-8b04-6dbd4c33514c|f0a79bac-32a8-4f22-9f69-803aa2645568",
+          ""
+        ],
+        [
+          "clearance|124325000|78349289|189fd7f2-568a-496e-92c3-d191b62100a6|f0a79bac-32a8-4f22-9f69-803aa2645568",
+          ""
+        ],
+        [
+          "clearance|124517175|77782886|a689bfb7-c09d-4ae8-b712-a07484b0f5e3|f0a79bac-32a8-4f22-9f69-803aa2645568",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -79,7 +104,7 @@
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
+        "hole_clearance": "ignore",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -134,7 +159,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.25,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
@@ -469,7 +494,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,

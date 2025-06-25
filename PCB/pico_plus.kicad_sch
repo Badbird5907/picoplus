@@ -1159,119 +1159,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x01"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2269,203 +2156,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Jumper:SolderJumper_2_Bridged"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Bridged"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Bridged*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Bridged_0_1"
-				(rectangle
-					(start -0.508 0.508)
-					(end 0.508 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Bridged_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5005,31 +4695,45 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:TLV1117-33"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "Regulator_Linear:TPS7A20xxxDQN"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -3.81 3.175 0)
+				(at -3.81 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "TLV1117-33"
-				(at 0 3.175 0)
+			(property "Value" "TPS7A20xxxDQN"
+				(at 6.35 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_SON:Texas_X2SON-4_1x1mm_P0.65mm"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, X2SON-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5038,7 +4742,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv1117.pdf"
+			(property "ki_keywords" "Single Output LDO Texas-Instruments"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5047,7 +4751,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"
+			(property "ki_fp_filters" "*X2SON*1x1mm*P0.65mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5056,28 +4760,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "linear regulator ldo fixed positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?223* TO?263* TO?252* TO?220*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TLV1117-33_0_1"
+			(symbol "TPS7A20xxxDQN_0_1"
 				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -5086,12 +4772,28 @@
 						(type background)
 					)
 				)
-			)
-			(symbol "TLV1117-33_1_1"
 				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "VI"
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5116,7 +4818,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5125,16 +4827,36 @@
 					)
 				)
 				(pin power_out line
-					(at 7.62 0 180)
+					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "VO"
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TPS7A20xxxDQN_1_1"
+				(pin passive line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "Pad"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5913,10 +5635,22 @@
 		(uuid "555ee4ce-c43a-4b12-905f-f667f0c79e72")
 	)
 	(junction
+		(at 152.4 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c2b86b1-2ba8-46dd-b6dc-f016de1fb31c")
+	)
+	(junction
 		(at 80.01 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "646426ac-ce83-4ec7-9726-ff97758de8c9")
+	)
+	(junction
+		(at 111.76 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65665d73-ee62-42e6-8248-ae94dd110f87")
 	)
 	(junction
 		(at 254 43.18)
@@ -6138,6 +5872,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 43.18) (xy 111.76 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024c6cb4-1941-45fa-ae03-236d0ef2b48c")
+	)
+	(wire
+		(pts
 			(xy 257.81 115.57) (xy 248.92 115.57)
 		)
 		(stroke
@@ -6195,6 +5939,16 @@
 			(type default)
 		)
 		(uuid "06ba39c6-06b9-4ab6-b013-779948261d4c")
+	)
+	(wire
+		(pts
+			(xy 152.4 91.44) (xy 157.48 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "070224ac-c9a0-4495-bf1b-bd7459de48b9")
 	)
 	(wire
 		(pts
@@ -6285,6 +6039,16 @@
 			(type default)
 		)
 		(uuid "1307fcec-dfd7-4e85-9d38-c13cf0d155de")
+	)
+	(wire
+		(pts
+			(xy 111.76 43.18) (xy 110.49 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "164234fc-a04d-4cea-855a-e6ffff7cfbdb")
 	)
 	(wire
 		(pts
@@ -6518,6 +6282,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 41.91) (xy 113.03 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26c13e17-9c41-4415-9468-2557578658b5")
+	)
+	(wire
+		(pts
 			(xy 358.14 78.74) (xy 356.87 78.74)
 		)
 		(stroke
@@ -6578,6 +6352,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 96.52) (xy 185.42 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d9b9ead-23fd-40c7-ba6f-d6b63b694ab6")
+	)
+	(wire
+		(pts
 			(xy 257.81 120.65) (xy 248.92 120.65)
 		)
 		(stroke
@@ -6598,16 +6382,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 179.07) (xy 82.55 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3004512c-23d6-4479-82e0-b2cc9daa947d")
-	)
-	(wire
-		(pts
 			(xy 276.86 31.75) (xy 288.29 31.75)
 		)
 		(stroke
@@ -6625,16 +6399,6 @@
 			(type default)
 		)
 		(uuid "31a067fb-2911-4f2d-82e8-942f023e3fea")
-	)
-	(wire
-		(pts
-			(xy 146.05 96.52) (xy 148.59 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31a4d649-8462-4694-ab85-869a37e78528")
 	)
 	(wire
 		(pts
@@ -7008,6 +6772,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 43.18) (xy 110.49 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53c0853c-a96b-4e3a-a075-5b6346b3cc3a")
+	)
+	(wire
+		(pts
 			(xy 41.91 165.1) (xy 41.91 157.48)
 		)
 		(stroke
@@ -7115,16 +6889,6 @@
 			(type default)
 		)
 		(uuid "5c6b1b17-ed42-41e1-a18c-a179b9e2c05a")
-	)
-	(wire
-		(pts
-			(xy 156.21 96.52) (xy 185.42 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c8a22f5-07f5-42ce-bfeb-ec4231fe1f90")
 	)
 	(wire
 		(pts
@@ -7368,6 +7132,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 99.06) (xy 185.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "760dea7a-fe2d-41c2-8796-25bf0f4dd5f2")
+	)
+	(wire
+		(pts
 			(xy 364.49 156.21) (xy 351.79 156.21)
 		)
 		(stroke
@@ -7405,16 +7179,6 @@
 			(type default)
 		)
 		(uuid "7ab7abbb-9362-459d-9efc-e803f05b48e5")
-	)
-	(wire
-		(pts
-			(xy 146.05 91.44) (xy 146.05 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7af359af-a224-4a38-ab70-2b548ec43a9d")
 	)
 	(wire
 		(pts
@@ -7625,6 +7389,16 @@
 			(type default)
 		)
 		(uuid "8e30ace8-453a-400d-8165-beadc532484b")
+	)
+	(wire
+		(pts
+			(xy 95.25 34.29) (xy 102.87 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ed8922e-6cc4-4db5-9bbe-618d1f216a80")
 	)
 	(wire
 		(pts
@@ -7868,6 +7642,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 91.44) (xy 157.48 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47e99c6-bfd6-4336-9fb5-2fec035849b4")
+	)
+	(wire
+		(pts
 			(xy 99.06 147.32) (xy 93.98 147.32)
 		)
 		(stroke
@@ -7995,6 +7779,16 @@
 			(type default)
 		)
 		(uuid "b379598a-c8e9-4c63-b2d3-8cc6e83c4786")
+	)
+	(wire
+		(pts
+			(xy 146.05 91.44) (xy 152.4 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b40aeb6c-75d8-4dfe-9d57-df41b51a15ba")
 	)
 	(wire
 		(pts
@@ -8378,6 +8172,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 69.85) (xy 92.71 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e07fffe1-241f-4e5b-911f-be90b93034fb")
+	)
+	(wire
+		(pts
 			(xy 48.26 205.74) (xy 48.26 215.9)
 		)
 		(stroke
@@ -8415,16 +8219,6 @@
 			(type default)
 		)
 		(uuid "e5a5ce1b-24f9-439f-b786-f5da2ab1bd5f")
-	)
-	(wire
-		(pts
-			(xy 171.45 99.06) (xy 185.42 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6a46e35-b53e-4907-98c1-dc1c4cc729b9")
 	)
 	(wire
 		(pts
@@ -8498,7 +8292,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 179.07) (xy 74.93 179.07)
+			(xy 67.31 179.07) (xy 90.17 179.07)
 		)
 		(stroke
 			(width 0)
@@ -8675,6 +8469,16 @@
 			(justify right bottom)
 		)
 		(uuid "1115e46b-b84e-447c-9d0f-9ba3469a5947")
+	)
+	(label "3V3_EN"
+		(at 92.71 69.85 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14fb0aa6-0355-4b44-b995-7fc42ac98b1d")
 	)
 	(label "GP13"
 		(at 257.81 130.81 180)
@@ -8945,6 +8749,16 @@
 			(justify right bottom)
 		)
 		(uuid "6836865e-62c4-4c77-b3d4-e5e312680e6e")
+	)
+	(label "3V3_EN"
+		(at 95.25 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6859f859-ec9d-42e5-9329-d8c909093c9c")
 	)
 	(label "GP28_ADC2"
 		(at 262.89 171.45 180)
@@ -9256,16 +9070,6 @@
 		)
 		(uuid "8d4ab2b7-bb5d-4907-b095-f281420f5cc5")
 	)
-	(label "GP29_ADC3"
-		(at 364.49 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "90b93976-ba72-471d-99d3-66028926a6c2")
-	)
 	(label "GP22"
 		(at 364.49 151.13 180)
 		(effects
@@ -9415,6 +9219,16 @@
 			(justify right bottom)
 		)
 		(uuid "b7092537-610a-4153-82f7-bc9769b5b1ce")
+	)
+	(label "3V3_EN"
+		(at 364.49 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bfb9009b-f403-45bd-a918-9e9ce392d3ab")
 	)
 	(label "SWD"
 		(at 339.09 184.15 90)
@@ -11605,6 +11419,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 92.71 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32bea0bd-43bb-42dc-b0fe-d9332123537b")
+		(property "Reference" "#PWR055"
+			(at 92.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 92.456 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 92.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27e61088-0fbd-487c-9a78-38946a44d7c7")
+		)
+		(instances
+			(project "pico_plus"
+				(path "/178505cd-8ab7-4104-a7aa-1c5f6363b7ad"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 156.21 77.47 270)
 		(unit 1)
@@ -11672,7 +11551,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 152.4 96.52 270)
+		(at 152.4 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11681,23 +11560,25 @@
 		(fields_autoplaced yes)
 		(uuid "347f4872-2ce8-46fa-811d-65fad6447dcf")
 		(property "Reference" "L1"
-			(at 152.4 91.44 90)
+			(at 153.67 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "3.3u"
-			(at 152.4 93.98 90)
+			(at 153.67 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Components:AOTA-B201610S3R3-101-T"
-			(at 152.4 96.52 0)
+		(property "Footprint" "RP2350_60QFN_minimal:L_pol_2016"
+			(at 152.4 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11706,7 +11587,7 @@
 			)
 		)
 		(property "Datasheet" "https://abracon.com/datasheets/AOTA-B201610S3R3-101-T.pdf"
-			(at 152.4 96.52 0)
+			(at 152.4 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11715,7 +11596,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 152.4 96.52 0)
+			(at 152.4 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12727,7 +12608,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 110.49 39.37 0)
+		(at 111.76 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12736,7 +12617,7 @@
 		(fields_autoplaced yes)
 		(uuid "6628dccf-ac17-4c10-a159-f77dbe05ceeb")
 		(property "Reference" "#PWR07"
-			(at 110.49 45.72 0)
+			(at 111.76 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12745,7 +12626,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.49 44.45 0)
+			(at 111.76 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12753,7 +12634,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 39.37 0)
+			(at 111.76 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12762,7 +12643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 39.37 0)
+			(at 111.76 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12771,7 +12652,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 39.37 0)
+			(at 111.76 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13480,7 +13361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "RP2350_60QFN_minimal:C_0402_1005Metric_small_pads"
 			(at 138.1252 99.06 0)
 			(effects
 				(font
@@ -13646,77 +13527,6 @@
 			(project "pico_plus"
 				(path "/178505cd-8ab7-4104-a7aa-1c5f6363b7ad"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:TLV1117-33")
-		(at 110.49 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7dfbc674-3e33-4adb-a586-311121d717fa")
-		(property "Reference" "U2"
-			(at 110.49 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV1117-33"
-			(at 110.49 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 110.49 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv1117.pdf"
-			(at 110.49 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"
-			(at 110.49 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "9faa35a7-e60d-417c-9c9a-6ddd3db8df5f")
-		)
-		(pin "1"
-			(uuid "82e2a19a-7ede-4e2d-bcd2-4abacb3afc5e")
-		)
-		(pin "2"
-			(uuid "a8f8dc78-a2a7-4a38-8b11-504d26bc3e43")
-		)
-		(instances
-			(project ""
-				(path "/178505cd-8ab7-4104-a7aa-1c5f6363b7ad"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -14233,6 +14043,76 @@
 			(project "pico_plus"
 				(path "/178505cd-8ab7-4104-a7aa-1c5f6363b7ad"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 92.71 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "951feee9-9e79-403b-b265-d028e46d59ce")
+		(property "Reference" "R16"
+			(at 95.25 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 95.25 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 90.932 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 92.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a61e4c9-fc74-48a7-92b4-c1f4bdad2fb7")
+		)
+		(pin "1"
+			(uuid "5cd1d990-fd17-4008-b8bf-185032ae99d2")
+		)
+		(instances
+			(project "pico_plus"
+				(path "/178505cd-8ab7-4104-a7aa-1c5f6363b7ad"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -15534,7 +15414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "RP2350_60QFN_minimal:C_0402_1005Metric_small_pads"
 			(at 129.8448 99.06 0)
 			(effects
 				(font
@@ -15966,6 +15846,83 @@
 			(project "pico_plus"
 				(path "/178505cd-8ab7-4104-a7aa-1c5f6363b7ad"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TPS7A20xxxDQN")
+		(at 110.49 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d17fb839-7fce-4ed3-88d7-e8125c216731")
+		(property "Reference" "U2"
+			(at 110.49 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS7A20xxxDQN"
+			(at 110.49 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SON:Texas_X2SON-4_1x1mm_P0.65mm"
+			(at 110.49 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
+			(at 110.49 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, X2SON-5"
+			(at 110.49 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fbaa9bd1-a605-4581-8268-96068c628776")
+		)
+		(pin "5"
+			(uuid "68ce955a-9990-4b6b-b74a-c4eed0a52c10")
+		)
+		(pin "1"
+			(uuid "bfbfdeef-6100-41a3-9d7e-d142aaf1e059")
+		)
+		(pin "4"
+			(uuid "1c88cc3c-4721-46d2-8267-6f2da0f7edae")
+		)
+		(pin "3"
+			(uuid "50fa3854-746e-4fa1-bf78-d437e3ae455e")
+		)
+		(instances
+			(project ""
+				(path "/178505cd-8ab7-4104-a7aa-1c5f6363b7ad"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -16432,73 +16389,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 391.16 223.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e00cd5fd-b2a6-4e8d-821f-e48b2f1ab6e8")
-		(property "Reference" "J3"
-			(at 393.7 222.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 393.7 224.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 391.16 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 391.16 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 391.16 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bef2cb31-78cd-474e-94d5-c9bda85784eb")
-		)
-		(instances
-			(project ""
-				(path "/178505cd-8ab7-4104-a7aa-1c5f6363b7ad"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 134.62 102.87 0)
 		(unit 1)
@@ -16557,6 +16447,72 @@
 			(project "pico_plus"
 				(path "/178505cd-8ab7-4104-a7aa-1c5f6363b7ad"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 386.08 223.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e63556da-976d-4a5e-8aa5-162bd0ea5bb2")
+		(property "Reference" "TP7"
+			(at 390.6521 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LEDOUT"
+			(at 388.366 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 386.08 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 386.08 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 386.08 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa1e8c00-d0b7-461f-8f38-504493aa2efd")
+		)
+		(instances
+			(project "pico_plus"
+				(path "/178505cd-8ab7-4104-a7aa-1c5f6363b7ad"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -17015,75 +16971,6 @@
 			(project "pico_plus"
 				(path "/178505cd-8ab7-4104-a7aa-1c5f6363b7ad"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 78.74 179.07 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc932aef-b40a-496e-a3a5-80c89dcbbbdf")
-		(property "Reference" "JP1"
-			(at 78.74 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Bridged"
-			(at 78.74 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
-			(at 78.74 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 78.74 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d090da30-a8c2-4c6a-b3a9-4fe25a4ba9cb")
-		)
-		(pin "2"
-			(uuid "dcd0ef2f-876c-40dc-b7d5-f02d5a81b620")
-		)
-		(instances
-			(project ""
-				(path "/178505cd-8ab7-4104-a7aa-1c5f6363b7ad"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
