@@ -5705,7 +5705,7 @@
 		)
 		(uuid "6905a220-586b-4f0f-9f51-f98933f320ec")
 	)
-	(text "PSRAM Chip\n(APS6505L - 8MB)"
+	(text "PSRAM Chip\n(APS6404L - 8MB)"
 		(exclude_from_sim no)
 		(at 77.216 133.858 0)
 		(effects
