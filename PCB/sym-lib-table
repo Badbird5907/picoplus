@@ -4,4 +4,5 @@
   (lib (name "APS6404L-3SQR-ZR")(type "KiCad")(uri "${KIPRJMOD}/Components/APS6404L-3SQR-ZR.kicad_sym")(options "")(descr ""))
   (lib (name "Pico")(type "KiCad")(uri "${KIPRJMOD}/Components/Pico.kicad_sym")(options "")(descr ""))
   (lib (name "AT24CM02_SSHM_T")(type "KiCad")(uri "${KIPRJMOD}/Components/AT24CM02_SSHM_T.kicad_sym")(options "")(descr ""))
+  (lib (name "USB_C")(type "KiCad")(uri "${KIPRJMOD}/Components/USB_C.kicad_sym")(options "")(descr ""))
 )
