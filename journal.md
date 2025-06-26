@@ -28,6 +28,15 @@ Sat at my desk and made some tweaks to the schematic- the I2C EEPROM chip was re
 ![img](https://hc-cdn.hel1.your-objectstorage.com/s/v3/f21e9aa79d16d40aaa7a059a5c4ab1665984f3c9_kicad_pemno1jvuh.png)
 
 # 6/25
+
+--
 Time spent: 6h
-Did this all in a couple hours at a coffee shop. I redid the power layout and finished the PCB. On to sourcing parts now!
-![img](https://hc-cdn.hel1.your-objectstorage.com/s/v3/4195242a2c4d129d6ec4d91fcfe52e4d6db890c9_kicad_tyf9tc7nlb.png)
+Did this all in a couple hours at a coffee shop. I redid the power layout and finished the PCB. On to sourcing parts now![img](https://hc-cdn.hel1.your-objectstorage.com/s/v3/4195242a2c4d129d6ec4d91fcfe52e4d6db890c9_kicad_tyf9tc7nlb.png)
+--
+
+--
+Time spent: 4h
+Redid and moved around a bit of the power supply, and then optimized the BOM and things for PCBA. I then realized the project would be overbudget, so I decided to get a hotplate and reflow the parts myself, which is much cheaper. I then created the master BOM for LCSC and JLCPCB.
+I decided to get the hotplate off amazon as the price is only $1 more than AliExpress.
+
+
