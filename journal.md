@@ -1,3 +1,5 @@
+Total Time Spent: 31h
+
 # 6/20
 Time spent: 4h
 Read through the [hardware design with rp2350](https://datasheets.raspberrypi.com/rp2350/hardware-design-with-rp2350.pdf) document, and some of the rp2350 datasheet, and got started with the design.
