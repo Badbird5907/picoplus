@@ -1,4 +1,4 @@
-Total Time Spent: 31h
+Total Time Spent: 39h
 
 # 6/20
 Time spent: 4h
@@ -42,3 +42,7 @@ Redid and moved around a bit of the power supply, and then optimized the BOM and
 I decided to get the hotplate off amazon as the price is only $1 more than AliExpress.
 
 
+# 7/9
+Time spent: 5h
+
+The parts arrived and I reflowed the pcb, it works!
