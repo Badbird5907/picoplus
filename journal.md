@@ -43,6 +43,12 @@ I decided to get the hotplate off amazon as the price is only $1 more than AliEx
 
 
 # 7/9
+
 Time spent: 5h
 
 The parts arrived and I reflowed the pcb, it works!
+PS. 0201 components are HELLLISH to deal with
+
+![20250802_234625](https://github.com/user-attachments/assets/ac3c3b91-a325-455c-a22e-cf02540d6588)
+![20250802_234557](https://github.com/user-attachments/assets/fb6c73b7-ecd5-4205-883c-76b04d625d86)
+![20250709_195919](https://github.com/user-attachments/assets/6b623a33-3bf1-47d3-888f-86e763c83936)
