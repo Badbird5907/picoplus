@@ -12,7 +12,8 @@ This is my take on the Raspberry Pi Pico 2. It features:
 
 I wanted to make this project as the stock pico is kinda underpowered, and I wanted to make a overkill version. While making this project, I did have to reduce my scope by removing the I2C EEPROM and some other features. However, I'm really happy with the resulting board.
 
-![PCB](https://hc-cdn.hel1.your-objectstorage.com/s/v3/f260ef36b546c6d6cfd9b39b68e8c873331670a6_tabtip_511kmndmul.png)
+![PCB](https://i.imgur.com/EfhkE5W.png)
+![schematic](https://i.imgur.com/EnIy2TR.png)
 
 ![20250802_234625](https://github.com/user-attachments/assets/ac3c3b91-a325-455c-a22e-cf02540d6588)
 ![20250802_234557](https://github.com/user-attachments/assets/fb6c73b7-ecd5-4205-883c-76b04d625d86)
